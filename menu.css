@@ -1,0 +1,54 @@
+
+   
+
+body {
+
+        background-image: url('https://s3.amazonaws.com/blog.dentrodahistoria.com.br/wp-content/uploads/2021/06/29175214/thumb-turma-monica.png');
+        background-repeat: no-repeat; 
+        background-position: center center; 
+        background-size: cover; 
+}
+
+h1 {
+    text-align: center;
+    font-size: 36px;
+    margin: 50px 0;
+    color: #333;
+}
+
+.menuu {
+    font-family: Arial, sans-serif;
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 50px;
+    background-color: #ace7ff;;
+
+}
+
+.menuu h2 {
+    font-size: 24px;
+    color: #333;
+    margin-top: 0;
+    margin-bottom: 20px;
+}
+
+
+
+.menuu li {
+    padding: 5px 0;
+}
+
+.menuu p {
+    margin: 0;
+    padding: 10px 0;
+    line-height: 1.5;
+    border-bottom: 1px solid #eee;
+}
+
+.menuu ul li::before {
+    content: "\2022";
+    color: #999;
+    display: inline-block;
+    width: 1em;
+    margin-left: -1em;
+}
