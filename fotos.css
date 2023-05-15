@@ -4,6 +4,9 @@
     flex-wrap: wrap;
     
   }
+  body{
+    background-color: #3d7692;
+  }
  
   
   .galeria img {
